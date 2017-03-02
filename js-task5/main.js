@@ -42,27 +42,22 @@
 
   leftOut.addEventListener("click",leftOUT,false);
   function leftOUT() {
-    if(que.firstChild)
-    que.firstChild.remove();
-    n--;
+    if(que.firstChild){
+      alert(parseInt(que.firstChild.style.height));
+      que.firstChild.remove();
+      n--;
+    }
   }
 
   rightOut.addEventListener("click",rightOUT,false);
   function rightOUT() {
-    if(que.lastChild)
-    que.lastChild.remove();
-    n--;
-  }
-  
-  function sleep(numberMillis) {
-    var now = new Date();
-    var exitTime = now.getTime() + numberMillis;
-    while (true) {
-        now = new Date();
-        if (now.getTime() > exitTime)
-            return;
+    if(que.lastChild){
+      alert(parseInt(que.lastChild.style.height));
+      que.lastChild.remove();
+      n--;
     }
   }
+  
 
   sortUp.addEventListener("click",sortUP,false);
   function sortUP() {
