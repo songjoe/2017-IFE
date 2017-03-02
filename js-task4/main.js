@@ -20,13 +20,17 @@
   }
   leftOut.addEventListener("click",leftOUT,false);
   function leftOUT() {
-    if(que.firstChild)
-    que.firstChild.remove();
+    if(que.firstChild){
+      alert(que.firstChild.innerHTML);
+      que.firstChild.remove();
+    }
   }
   rightOut.addEventListener("click",rightOUT,false);
   function rightOUT() {
-    if(que.lastChild)
-    que.lastChild.remove();
+    if(que.lastChild){
+      alert(que.lastChild.innerHTML);
+      que.lastChild.remove();
+    }
   }
   
 })();
