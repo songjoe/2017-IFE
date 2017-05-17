@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 400px;
+	margin: 0 auto;
+}
+
+table tr th,
+table tr td {
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-family: serif;
+	font-size: 20px;
+	font-weight: 800;
+	border: 1px solid #848484;
+	
+}
+
+table tr th {
+	background-color: #666666;
+	color: #ffffff;
+	font-weight: 600;
+}
+
+table {
+	margin: 5px;
+	border-collapse: collapse;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery版小方块（二）</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="../../jQuery/jquery-3.2.1.js"></script>
+	<script src="jquery.transit.js"></script>
+	<script src="main.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="top_num">
+			<span class="none"></span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+		</div>
+		<div id="left_num">
+			<p>1</p><p>2</p><p>3</p><p>4</p><p>5</p><p>6</p><p>7</p><p>8</p><p>9</p><p>10</p>
+		</div>
+		<div class="tb_border clearfix">
+			<table>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+				<tr>
+					<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+				</tr>
+			</table>
+			<div id="box">
+				<div id="box_head"></div>
+				<div id="box_body"></div>
+			</div>
+			<div class="box_order">
+				<input type="text" name="move" id="move">
+				<input type="button" value="执行" id="btn">
+			</div>
+		</div>
+		
+		
+	</div>
+	<div class="order_text">
+		<p>TRA LEF</p>
+		<p>TRA TOP</p>
+		<p>TRA RIG</p>
+		<p>TRA BOT</p>
+		<p>MOV LEF</p>
+		<p>MOV TOP</p>
+		<p>MOV RIG</p>
+		<p>MOV BOT</p>
+	</div>
+</body>
+</html>

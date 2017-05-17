@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+input[type="radio"] {
+	display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+
+}
+
+label {
+    display: inline-block;
+    margin-top: 40px;   
+    margin-left: 100px;
+}
+
+select {
+    width: 100px;
+}
+
+#wAdd {
+    margin-top: -2400px;
+    display: none;
+}

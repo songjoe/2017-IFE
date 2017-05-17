@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 500px;
+	height: 100px;
+	margin: auto;
+	margin-top: 200px;
+}
+
+.label {
+	display: inline-block;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+input {
+	display: inline-block;
+	height: 40px;
+	width: 300px;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	margin: 0 10px 0 20px;
+}
+
+button { 
+	display: inline-block;
+	height: 40px;
+	width: 80px;
+	border: 1px solid #2f79ba;
+	border-radius: 4px;
+	background-color: #2f79ba;
+	font-size: 20px;
+	color: #FFF;
+}
+
+p {
+	margin-left: 65px;
+	color: #ccc;
+	font-size: 18px;
+	margin-top: 4px;
+}
+

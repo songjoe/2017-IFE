@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.container {
+	width: 100%;
+}
+
+#popFloat {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,0);
+	display: block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #cccccc;
+	border-radius: 2px;
+	cursor: pointer;
+	z-index: 0;
+	background-color: red;
+}
+
+#musk {
+	position :absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(168,168,168,0.5);
+	z-index: 100;
+	/*display: none;*/
+}
+
+#float {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border: 1px solid #000000;
+/*	display: none;
+*/	z-index: 200;
+}
+
+.floatTop {
+	width: 400px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #000000;
+	text-align: left;
+	padding-left: 15px;
+	background-color: #848484;
+	color: #ffffff;
+}
+
+.floatMain {
+	width: 400px;
+	height: 200px;
+	padding-left: 15px;	
+	padding-top: 25px;
+	color: #848484;
+}
+
+#ensure {
+	position: absolute;
+	width: 100px;
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #ffffff;
+	background-color: #848484;
+	bottom: 10px;
+	right: 120px;	
+}
+
+#cancel {
+	position: absolute;
+	width: 100px;
+	height: 30px;
+	font-size: 14px;
+	color: #ffffff;
+	background-color: #848484;
+	line-height: 30px;
+	bottom: 10px;
+	right: 10px;
+}
